@@ -1,0 +1,15 @@
+C:\DSA\AlgoMaster\C#\DSA\bin\Debug\net9.0\DSA.exe
+C:\DSA\AlgoMaster\C#\DSA\bin\Debug\net9.0\DSA.deps.json
+C:\DSA\AlgoMaster\C#\DSA\bin\Debug\net9.0\DSA.runtimeconfig.json
+C:\DSA\AlgoMaster\C#\DSA\bin\Debug\net9.0\DSA.dll
+C:\DSA\AlgoMaster\C#\DSA\bin\Debug\net9.0\DSA.pdb
+C:\DSA\AlgoMaster\C#\DSA\obj\Debug\net9.0\DSA.GeneratedMSBuildEditorConfig.editorconfig
+C:\DSA\AlgoMaster\C#\DSA\obj\Debug\net9.0\DSA.AssemblyInfoInputs.cache
+C:\DSA\AlgoMaster\C#\DSA\obj\Debug\net9.0\DSA.AssemblyInfo.cs
+C:\DSA\AlgoMaster\C#\DSA\obj\Debug\net9.0\DSA.csproj.CoreCompileInputs.cache
+C:\DSA\AlgoMaster\C#\DSA\obj\Debug\net9.0\DSA.sourcelink.json
+C:\DSA\AlgoMaster\C#\DSA\obj\Debug\net9.0\DSA.dll
+C:\DSA\AlgoMaster\C#\DSA\obj\Debug\net9.0\refint\DSA.dll
+C:\DSA\AlgoMaster\C#\DSA\obj\Debug\net9.0\DSA.pdb
+C:\DSA\AlgoMaster\C#\DSA\obj\Debug\net9.0\DSA.genruntimeconfig.cache
+C:\DSA\AlgoMaster\C#\DSA\obj\Debug\net9.0\ref\DSA.dll
