@@ -5,7 +5,6 @@
  */
 var combinationSum = function (arr, target) {
     let result = [];
-
     let backtrack = (remainingSum, path, start) => {
         if (remainingSum == 0) result.push([...path]);
         if (remainingSum <= 0) return;
