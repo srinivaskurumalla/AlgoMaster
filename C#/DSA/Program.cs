@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Solution solution = new();
-int[] nums = [1, 1, 1]; //new int[1, 1, 1];
-int k = 2;
-int res = solution.SubarraySum(nums, k);
-Console.WriteLine(res);
+SolutionC s = new();
+int[] coins = [186, 419, 83, 408];
+int amt = 6249;
+s.CoinChange(coins, amt); 
