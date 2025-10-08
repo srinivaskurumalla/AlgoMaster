@@ -50,8 +50,48 @@ public class SolutionC2
         return count;
     }
 
-    //Cleaner code
+//same
     public int CountSubstrings2(string s)
+    {
+        int n = s.Length;
+        int ans = 0;
+        //Let's create a 2-D array to store the found Palindromes
+        bool[,] arr = new bool[n, n];
+
+        //Fill single and double length chars
+        for (int i = 0; i < n; i++)
+        {
+            arr[i, i] = true;
+            ++ans;
+            if (i < n - 1 && s[i] == s[i + 1])//check for 2 chars
+            {
+                arr[i, i + 1] = true;
+                ++ans;
+            }
+        }
+
+        //In order to get every substring we need 2 loops
+        //directly check for 3 length substrings
+        for (int len = 3; len <= n; len++)
+        {
+            for (int i = 0; i <= n-len; i++)
+            {
+                int j = i + len - 1;
+                if (s[i] == s[j] && arr[i + 1, j - 1] == true)
+                {
+                    arr[i, j] = true;
+                    ++ans;
+                }
+                
+            }
+           
+        }
+        
+        return ans;
+    }
+
+    //Cleaner code
+    public int CountSubstrings3(string s)
     {
         int n = s.Length;
         bool[,] dp = new bool[n, n];
